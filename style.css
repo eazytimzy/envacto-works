@@ -1,0 +1,255 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Source Sans Pro';
+    background-color: white
+}
+
+.topnav {
+  overflow: hidden;
+  background-color:white;
+  padding: 10px 1px;
+}
+.topnav img{
+  width: 200px;
+  height: 50px;
+  padding-left: 100px;
+  line-height: 5px;
+  }
+.topnav a {
+  float: right;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  margin-right: 100px;
+  padding: 15px 2px;
+  font-weight: 300px;
+}
+.topnav a.active {
+  background-color: #2A88CC;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 3px;
+
+}
+.topnav a.inactive {
+  color: black;
+  padding: 15px 30px;
+  border-radius: 3px;
+  border-color: black;
+  
+  border-width: 1.5px;
+  border-style: solid;
+}
+
+.topnav a:hover {
+  background-color: #2A88CC;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 3px;
+}
+#clicked{
+ color:#2A88CC
+   
+}
+#clicked:hover {
+  background-color: #2A88CC;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 3px;
+}
+
+.contact{
+   color: white;
+   background-color:#2A88CC ;
+   width: 100%;
+   height: 150px;
+   padding: 80px 100px;
+   font-weight: 300px;
+   font-size: 40px;
+  }
+  .contact span{
+  background-color: #2A88CC;
+  color: white;
+  font-size: 17px;
+  font-weight: 300px;
+  }
+
+  .sect1{
+      padding: 100px 0px 100px;
+  }
+  .sect1 span{
+   color: #e30c0c;
+   font-size: 40px;
+  }
+
+  .sect1 #suport{
+    color: #2A88CC;
+    font-size: 40px;
+   }
+
+   #ourhelpline{
+    font-size: 24px;
+   }
+   #callus{
+    font-size: 40px;
+    color: rgb(139, 135, 135);
+   }
+   .map{
+       background-image: url(mapimage.jpg);
+       height:500px;
+       width: 1300px;
+       background-size: contain;
+       padding: 0px 20px 0px 20px;
+       margin-left: 100px;
+       margin-right: 200px;
+       
+   }
+
+ label{
+     font-size: 17px;
+ }
+  .form-container input[type=text], input[type=email], textarea {
+    width: 100%;
+    height: 50px;
+    padding: 12px;
+    border: 1px solid #2A88CC;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 17px;
+  
+  }
+  
+  .form-btn {
+    background-color:  #2A88CC;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    font-size: 17px;
+  }
+  
+  button:hover {
+    background-color:  #2a99ee;
+  }
+  
+  .form-container {
+    border-radius: 5px;
+    padding: 5px 100px 20px 100px;
+
+  }
+  #form-header{
+      padding: 60px 0px 20px 0px;
+      font-size: 24px;
+  }
+  .subsribe{
+    padding: 20px 100px 20px 100px;
+    display:inline-flex;
+  }
+  .subscribe-btn input[type=email]{
+    width: 500px;
+    border-radius:0px;
+    height: 40px;
+    margin-left: 485px;
+
+  }
+
+  .subscribe-btn button{
+      background-color:#2A88CC ;
+      padding: 5px;
+      color: white;
+      border: none;
+      height: 40px;
+      padding: 5px 5px;
+      width: 80px;
+      margin-left: 5px;
+  }
+  .subscribe-btn button:hover {
+    background-color:  #2a99ee;
+  
+
+  }
+
+#sub-text{
+ font-weight: bold;
+  font-size: 24px;
+  padding-top: 10px;
+  }
+  .footer-container{
+    background-color:#001020;
+    display:flex;
+  }
+ 
+.row{
+  background-color:#001020;
+  margin-left: 50px;
+}
+
+footer{
+  background-color:#001020;
+  padding: 30px;
+  color: white;
+}
+footer a, footer p, footer h4{
+  background-color:#001020;
+  color: white;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+
+  .column {
+    float: left;
+    width: 30.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    background-color:#001020;
+  }
+  
+  .card {
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    margin: 8px;
+    background-color:#001020;
+  }
+  
+
+   
+  .container a img{
+    background-color:#001020;
+    
+  }
+  
+  .container {
+    padding: 0 50px;
+    background-color:#001020;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  #imgs{
+    height: 30px;
+    width: 20px;
+    padding: 0px 15px 0px 15px;
+  }
+  
+  #logo2{
+    width: 200px;
+    height: 50px;
+    padding-left: 100px;
+    background-color:#001020;
+  }
+  
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
